@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    text-align: center;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    width: 10vw;
+    height: 8vw;
+    left: 50%;
+    top: 5%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -5%);
+}
+
+.text {
+    display: block;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    color: rgba(100, 100, 100, 1);
+}
+
+.getNameContent {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    width: 40%;
+    height: 40%;
+    padding-top: 1vw;
+    transform: translate(-50%, 15%);
+    border-radius: 1vw;
+    background-color: rgba(100, 100, 100, 0.08);
+}
+
+.name {
+    display: inline-block;
+    position: relative;
+    border-radius: 0.5vw;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgba(150, 150, 150, 1);
+    font-size: 20;
+    top: 5vw;
+    width: 20vw;
+    height: 2vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.name:focus {
+    outline-width: 0;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    border-style: none;
+    border-radius: 0.5vw;
+    background-color: rgb(74, 175, 113);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(51, 122, 79);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+    background-color: rgb(100, 235, 152);
+    transition-duration: 0s;
+    -webkit-transition-duration: 0s;
+}
+
+.button:focus {
+    outline-width: 0;
+}
+
+#submit {
+    font-size: 1vw;
+    width: 5vw;
+    height: 2vw;
+    top: 4.95vw;
+    left: 1vw;
+}
+
+#title {
+    top: 5vw;
+}
+
+.chatBox {
+    display: none;
+    position: relative;
+    overflow-y: scroll;
+    width: 29vw;
+    height: 32vw;
+    left: 44.2vw;
+    font-family: "Raleway", sans-serif;
+    top: 25%;
+    border-radius: 1vw;
+    transform: translate(-50%, -25%);
+    background-color: rgba(100, 100, 100, 0.08);
+    text-align: left;
+}
+
+.messageBox {
+    font-family: "Raleway", sans-serif;
+    display: none;
+    background-color: rgba(150, 150, 150, 0.5);
+    position: relative;
+    width: 40vw;
+    height: 3vw;
+    top: 12%;
+    left: 50%;
+    border-radius: 1vw;
+    transform: translate(-50%, -12%);
+}
+
+.message {
+    display: inline-block;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    width: 32vw;
+    height: 2vw;
+    top: 50%;
+    right: 0.7vw;
+    color: rgba(150, 150, 150, 1);
+    font-size: 20;
+    transform: translate(0vw, -50%);
+}
+
+.message:focus {
+    outline-width: 0;
+}
+
+#send {
+    display: inline-block;
+    font-size: 1vw;
+    width: 5vw;
+    height: 1.9vw;
+    right: 6%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.userBox {
+    display: none;
+    position: relative;;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border-radius: 1vw;
+    font-family: "Raleway", sans-serif;
+    background-color: rgba(150, 150, 150, 0.5);
+    width: 10vw;
+    height: 32vw;
+    left: 15vw;
+    bottom: 30.2vw;
+}
