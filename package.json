@@ -1,0 +1,13 @@
+{
+  "name": "MangioChatRoom",
+  "version": "1.0.0",
+  "description": "A Nice Simple CHat room for people to enjoy!",
+  "main": "server.js",
+  "repository": "https://github.com/MangoStar/MangioChatRoom.git",
+  "author": "MangoStar <ColePM621@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "2.0.4",
+    "express": "4.16.2"
+  }
+}
